@@ -1,0 +1,31 @@
+
+Estrutura de Dados -> Lista
+
+Variavel solta não é ED
+
+LL -> Lista unica dimensão/cresce num sentido. ex: notas de alunos
+
+Busca: não altera a lista / resposta é sim ou não ou retorna indice do que estou buscando
+
+Armazenamento -> memoria
+
+Lista Encadeada : ponteiro
+
+Aloc Estatica -> Sequencial maioria dos casos
+Aloc Dinamica -> Estrutural 				
+(listas no geral (acima))
+
+
+Pilha: lista limitada (1 sair quem ta em cima)
+*container
+
+Fila: entra num lado da lista e sai do outro (1 entrar é 1 a sair)
+
+Deque: remoção inserção são permitidas nas extremidades(não pode mexer no meio)
+
+Matriz +1 indice     Vetor 1 indice
+
+
+
+LS
+LE

@@ -1,0 +1,10 @@
+interface(não gráfica) -> papel de entidade
+
+classe abstrata - não cria objeto / serve como estrura / assinaturas de métodos
+
+
+
+
+ex - todas implemental interface
+
+

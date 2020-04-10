@@ -1,0 +1,38 @@
+throws - delega para o tratamento 
+
+
+RuntimeException - não obriga a tratar o erro
+
+Exception - 
+
+
+
+public void setIdade(int idade) {   //Não permitir idade negativa
+		if (idade >= 0) {
+			this.idade = idade;	
+		} else {
+			throw new RuntimeException("Opa...");  //aqui eu crio a exceção // RuntimeException não obriga a tratar o erro
+		}
+		
+	}
+
+
+/////////////////
+
+
+	public static void main(String[] args) {
+		
+		Pessoa p = new Pessoa(0);
+		try {
+			p.setIdade(-10);
+		} catch (RuntimeException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			System.out.println(e.getMessage()); // é usado  
+			 
+		}
+		
+
+	}
+
+}

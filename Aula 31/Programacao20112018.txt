@@ -1,0 +1,20 @@
+22/11 - E.D Listas Lineares
+27/11 - E.D Listas Encadeadas
+29/11 - E.D Filas/Pilhas (especializações listas lineares)
+04/12 - Prova E.D (10 pontos) -> TEORICA Listas acima
+06/12 - Aula de Acompanhamento do Trabalho
+11/12 - 13/12 - Apresentação do Sistema (30 pontos)
+
+
+cadastrar caminhão/navio e já encaminhar para a fila (arraylist)
+mandar (destino) container = matricula ou placa / fazer um if para verificar se é o certo
+cadastrar o que desce já dar destino
+
+
+//USAR PARA FAZER AS TELAS 
+//preencher linha tabela ADD   
+tabela -> caixa de textfield.gettext   ()
+ 
+//remover linha -> vericar se o tamanho tabela menor que zero
+
+aqui if se o navio é o do container deixa remover senão não deixa remover "Informar msg tela"

@@ -1,0 +1,113 @@
+package exercicio;
+
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		int n = 0;
+		int op = 0;
+
+		System.out.print("Digite o número de pessoas: ");
+		try {
+			n = scan.nextInt();
+			
+		} catch (InputMismatchException e) {
+			scan.nextLine(); // Descarta quebra de linha
+			System.out.print("ERRO NÚMERO DE PESSOAS! Somente números!Digite novamente: ");
+			n = scan.nextInt();
+			//e.printStackTrace();
+		}
+
+
+		Pessoa[] pessoas = new Pessoa[n];
+
+		System.out.println();
+		int posicao = 0;
+		
+		do {
+
+			System.out.println("MENU");
+			System.out.println("[1] - Cadastrar Pessoa em determinada posição do array");
+			System.out.println("[2] - Ler dados de Pessoa em determinada posição do array");
+			System.out.println("[3] - Sair");
+
+			System.out.print("OPCÃO: ");
+			try {
+				op = scan.nextInt();
+				
+			} catch (InputMismatchException e) {
+				scan.nextLine(); // Descarta quebra de linha
+				System.out.print("ERRO OP OPÇÃO! Somente números!Digite novamente: "); 
+				op = scan.nextInt();
+				//e.printStackTrace();
+			}
+
+			System.out.println();
+
+			switch (op) {
+			case 1:
+				System.out.print("Selecione a posição no array: ");
+				try {
+					posicao = scan.nextInt();
+					
+				} catch (InputMismatchException e) {
+					scan.nextLine(); // Descarta quebra de linha
+					System.out.print("ERRO POSIÇÃO ARRAY! Somente números!Digite novamente: ");
+					posicao = scan.nextInt();
+					//e.printStackTrace();
+					
+				}
+				 if(posicao >= pessoas.length) {
+						System.out.print("ATENÇÃO! Valor maior que o tamanho do array! Digite novamente: ");
+						posicao = scan.nextInt();
+						System.out.println();
+				 }if(posicao == pessoas.length) {
+					System.out.println("ATENÇÃO! Array pessoas já preenchido!");
+					System.out.println();
+				
+				} else {
+					//cadastro pessoa
+					System.out.print("Digite o nome: ");
+					String nomePessoa = scan.next();
+					System.out.print("Digite e idade: ");
+					int idadePessoa = scan.nextInt();
+					scan.nextLine(); // Descarta quebra de linha
+					//objeto
+					Pessoa pessoa = new Pessoa(nomePessoa, idadePessoa);
+					pessoas[posicao] = pessoa;
+					posicao++;
+					break;
+				}
+			case 2:
+				//lista
+				for (int i = 0; i < pessoas.length; i++) {
+					if (pessoas[i] != null) {
+						System.out.println("NOME: " + pessoas[i].getNome());
+						System.out.println("IDADE: " + pessoas[i].getIdade());
+						System.out.println();
+					}
+				}
+				break;
+
+			case 3:
+				System.out.println("SAINDO...");
+				break;
+
+			default:
+				System.out.println("OPÇÃO INVÁLIDA!");
+				break;
+			}
+
+		} while (op != 3);
+
+
+
+		scan.close();
+	}
+
+}

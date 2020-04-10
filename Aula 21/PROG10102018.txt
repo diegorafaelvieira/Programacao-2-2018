@@ -1,0 +1,8 @@
+Array -> Arrays
+ArrayList -> Collections
+
+************************************
+
+AQUI SÓ ARRAY COMUM
+sort - ordenação
+binarySearch - busca binária

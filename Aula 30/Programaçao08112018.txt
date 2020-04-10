@@ -1,0 +1,15 @@
+1 scroll pane
+2 text area
+
+card -> arastar dentro do principal as demais panel(essas deixo em absolut)
+
+
+
+para menu em cima(PASTA MENU)
+
+//mandar Angélica e Evandro
+
+
+Other -> WindowBuilder -> Swing Designer -> JPanel ao invés de Application Window
+
+OBS: exercicios frame,getContenPane()  BORDERLAYOUT 

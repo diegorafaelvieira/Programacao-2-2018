@@ -1,0 +1,11 @@
+String é um objeto e não um tipo de dado primitivo
+
+valores sem nada add
+int = 0
+float = 0.0
+objeto = null  ->String é um objeto
+
+COMPARAÇÃO
+tipos primitivos ==
+String 
+

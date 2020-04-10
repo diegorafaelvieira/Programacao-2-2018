@@ -1,0 +1,10 @@
+/ src -> fonte (.java)
+
+/ bin -> bytecode (.class)
+
+EXPORT -> GENERAL -> ARCHIVE
+
+IMPORT -> GENERAL -> EXISTING PROJECT INTO WORKSPACE
+
+
+livro = Deitel

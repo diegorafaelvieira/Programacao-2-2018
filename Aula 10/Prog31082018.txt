@@ -1,0 +1,3 @@
+Atributo Static - tem que ser para todos
+
+Math - é uma classe static

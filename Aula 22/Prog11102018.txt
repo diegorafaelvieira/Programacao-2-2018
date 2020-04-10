@@ -1,0 +1,13 @@
+FileWriter antes do DO-WHILE
+Gravar abaixo do DO-WHILE
+
+//Criar manualmente o txt
+NEW-> FOLDER -> DOC
+
+MARATONA
+maratona.feliz.ifrs.edu.br
+
+urionline
+*ver exemplos de entrada e saida
+
+2 slipt usar

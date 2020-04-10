@@ -1,0 +1,3 @@
+BREAK -> interromper o laço
+
+CONTINUE -> interrompe a execução atual (pula o valor e continua)

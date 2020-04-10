@@ -1,0 +1,24 @@
+PILARES POO
+
+1° Abstração
+2° Encapsulamento    //private
+3° 
+4º
+
+********************
+CONSTRUTOR -> tipo de método
+
+ex: Pessoa()
+
+********
+
+GET = pega (ler)
+
+SET = altera (modificar)
+
+***********************
+// CONSTRUTOR
+Source -> generate construtor using Fields
+
+//GET e SET
+Source -> generate getters and setters 

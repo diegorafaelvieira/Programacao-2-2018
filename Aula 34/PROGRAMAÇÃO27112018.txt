@@ -1,0 +1,17 @@
+//Talvel criar a classe Porto (contendo containers/caminhoes e navios)arrays
+
+//containers -> talvez usar o linkedlist
+
+Estrutura de Dados - forma de armazenar e organizar para um uso mais eficiente
+
+operações
+básicas : consulta,busca (não modificam) retorna indice
+	inserção e remoção(modificam)
+
+
+
+lista sequencial:
+
+lista encadeada: 
+
+

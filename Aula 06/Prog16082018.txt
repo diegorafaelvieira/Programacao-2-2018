@@ -1,0 +1,15 @@
+UML : linguagem de modelagem
+
++ public
+
+//CLASSE: 1° letra em maiuscula
+Ex:Carro
+
+//Atributo(caracteristicas): 1°letra da 1º palavra minuscula e a 1° letra das próximas palavras
+em maiusculo
+Ex:cor, ano, modelo, marca
+
+//Método:executa qualquer código no contexto da classe // preenchimento
+
+
+--RETURN(é a ultima a ser chamada): para a execução e retorna a chamada

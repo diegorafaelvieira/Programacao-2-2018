@@ -1,0 +1,9 @@
+window builder
+
+frame fora
+painel dentro do frame
+
+Panel -> usar absolut
+
+
+grid layout -> tabuleiro

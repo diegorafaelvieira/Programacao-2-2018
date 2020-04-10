@@ -1,0 +1,13 @@
+04/12 -> Prova E.D 10 pontos SEM CONSULTA -> Teórica pdf / interpretação de códigos (plush/pop) o que imprime na tela
+
+11 e 13/12 -> Apresentação (30 pontos)
+
+Listas Lineares - sem restrições quanto a colocação e remoção
+Pilhas e - com restrições
+Pilha ex: palindromo / chamadas recursivas(chama a si mesma)/ último a entrar é o primeiro a sair/ ver pdf parte Stack
+
+
+prova -> saber pull,add,push,pop
+
+
+

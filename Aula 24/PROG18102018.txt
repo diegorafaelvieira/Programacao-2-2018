@@ -1,0 +1,7 @@
+carregar antes de começar (ler txt e criar objeto do arraylist)
+ 
+arraylist
+...
+
+
+gravar no txt no final (escolha)
